@@ -1,0 +1,8 @@
+.gradle/
+build/
+bin/
+.kotlin
+.settings/
+.vscode/
+.DS_Store
+src/main/resources/config.properties

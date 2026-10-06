@@ -1,0 +1,5 @@
+C:\Users\jhost\.gradle\native\slice-tools-3.8.3\bin/slice2java.exe
+-I
+C:\Users\jhost\.gradle\native\slice-tools-3.8.3\slice
+--output-dir
+C:\Users\jhost\Desktop\2026-2\Ingesoft_IV\Tarea1 - ApexStore\nodo4-transactional-database\build\generated\source\slice\main

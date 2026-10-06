@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<generated>
+  <source name="C:\Users\jhost\Desktop\2026-2\Ingesoft_IV\Tarea1 - ApexStore\nodo4-transactional-database\src\main\slice\TransactionPersistence.ice">
+    <file name="C:\Users\jhost\Desktop\2026-2\Ingesoft_IV\Tarea1 - ApexStore\nodo4-transactional-database\build\generated\source\slice\main/com/apexstore/generated/TransactionPersistence/_Marker.java"/>
+    <file name="C:\Users\jhost\Desktop\2026-2\Ingesoft_IV\Tarea1 - ApexStore\nodo4-transactional-database\build\generated\source\slice\main/com/apexstore/generated/TransactionPersistence/TransactionPersistenceServicePrx.java"/>
+    <file name="C:\Users\jhost\Desktop\2026-2\Ingesoft_IV\Tarea1 - ApexStore\nodo4-transactional-database\build\generated\source\slice\main/com/apexstore/generated/TransactionPersistence/_TransactionPersistenceServicePrxI.java"/>
+    <file name="C:\Users\jhost\Desktop\2026-2\Ingesoft_IV\Tarea1 - ApexStore\nodo4-transactional-database\build\generated\source\slice\main/com/apexstore/generated/TransactionPersistence/TransactionPersistenceService.java"/>
+    <file name="C:\Users\jhost\Desktop\2026-2\Ingesoft_IV\Tarea1 - ApexStore\nodo4-transactional-database\build\generated\source\slice\main/com/apexstore/generated/TransactionPersistence/AsyncTransactionPersistenceService.java"/>
+  </source>
+</generated>
