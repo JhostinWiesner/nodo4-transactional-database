@@ -15,8 +15,7 @@ public class TransactionPersistenceServiceI
     }
 
     @Override
-    public void persistPgTransaction(
-            int transactionId,
+    public int persistPgTransaction(
             String orderId,
             String method,
             String amount,
@@ -24,8 +23,8 @@ public class TransactionPersistenceServiceI
             Current current) {
 
         try {
-            repository.persistPgTransaction(
-                transactionId,
+
+            return repository.persistPgTransaction(
                 orderId,
                 method,
                 amount,
@@ -33,15 +32,14 @@ public class TransactionPersistenceServiceI
             );
 
         } catch (SQLException e) {
+
             System.err.println(
-                "[Persistence Error] No se pudo persistir TxID "
-                + transactionId
-                + ": "
+                "[Persistence Error] No se pudo persistir la transaccion: "
                 + e.getMessage()
             );
 
             throw new RuntimeException(
-                "No se pudo persistir la transaccion " + transactionId,
+                "No se pudo persistir la transaccion",
                 e
             );
         }

@@ -44,10 +44,8 @@ public class PersistenceTestClient {
                 "[Test] Proxy obtenido correctamente."
             );
 
-            int transactionId = 9999;
 
-            persistenceProxy.persistPgTransaction(
-                transactionId,
+            int transactionId = persistenceProxy.persistPgTransaction(
                 "TEST-ORDER-9999",
                 "STRIPE",
                 "250.50",
